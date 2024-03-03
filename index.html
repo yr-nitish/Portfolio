@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="Cv.pdf">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Nitish</h1>
+            <h3>And I'm a <span id="typed-text"></span></h3>
+            <p>currently exploring various fields within computer science
+                <br>such as machine learning, deep learning and neural networks.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.linkedin.com/in/nitish-gupta0/"><i class="bx bxl-linkedin"></i></a>
+                <a href="#"><i class="bx bxl-instagram"></i></a>
+                <a href="#"><i class="bx bxl-whatsapp"></i></a>
+                <a href="https://github.com/yr-nitish"><i class="bx bxl-github"></i></a>
+            </div>
+            <a href="#about" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="devpiccc.png" height="600px">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Student at Jaypee University of Information Technology, Solan</h4>
+            <p> Studying Computer Science and Engineering, I have a growing passion for machine learning.I am eager to utilise my technical abilities to tackle challenging issues and make a meaningful difference in the world.</p>
+            <a href="Cv.pdf" download class="btn-box">Download Resume</a>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h1 class="sub-title">My <span>Projects</span></h1>
+            <div class="project-list">
+                <div>
+                    <i class="bx bx-code" style="color: #0ef"></i>
+                    <h2>Zentherapy</h2>
+                    <li>Mental health development Website to help people suffering from mental illness</li>
+                    <li>People can listen to podcasts, read books, articles and many more to relax themselves</li>
+                    <li>Built using HTML, CSS and JavaScript</li>
+                </div>
+            <div>
+                <i class="bx bx-crop" style="color: #0ef;"></i>
+                <h2>Iris</h2>
+                <li>Iris provides personalized support and assistance to users</li>
+                <li>It assists users with tasks such as google search, Wikipedia search, playing songs on YouTube, cracking jokes, providing weather updates of any city, sending messages on WhatsApp etc</li>
+              
+            </div> 
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact<span>Me</span></h2>
+            <h4>Let's work together</h4>
+            <p>I'm Looking for an Internship in Data Science and Machine Learning.Contact to get in touch...</p>
+            <div class="contact-list">
+                <li><i class='bx bxs-send'></i>nitish1601gupta@gmail.com</li>
+                <li><i class='bx bxs-phone'></i>0123456789</li>
+            </div>
+            <div class="contact-icons">
+                <a href="https://www.linkedin.com/in/nitish-gupta0" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/yr-nitish" target="_blank"><i class="bx bxl-github"></i></a>
+            </div>
+        </div>
+
+        <div class="contact-form">
+            <h4 id="msg"></h4>
+            <form>
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <!-- <button type="submit" class="send" value="submit">Send</button> -->
+                <input type="submit" id="sub">
+            </form>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p>Developed with love by Nitish</p>
+    </div>
+    <a href="#" class="top"> <i class="bx bx-up-arrow-alt"></i></a>
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
